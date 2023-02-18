@@ -1,6 +1,6 @@
 @echo off
 echo My Calculator
-set /p expression= Enter expression to calculate:
-set /a ans=%expression%
+set /P expression= Enter expression to calculate:
+set /A ans=%expression%
 echo = %ans%
 pause
