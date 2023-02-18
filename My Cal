@@ -1,0 +1,11 @@
+@echo off
+:a
+echo My Calculator
+echo.
+set /p expression= Enter expression to calculate:
+set /a ans=%expression%
+echo.
+echo = %ans%
+pause
+cls
+goto a
